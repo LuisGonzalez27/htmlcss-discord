@@ -4,3 +4,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* debug */
+.debug {
+    border: 1px solid black;
+    min-height: 100px;
+}
+
+/* start header */
+header {
+    background-color: #3466db;
+}
+
+/* start main */
+main {
+    background-color: #26f3379c;  /* da cambiare in white */
+}
+
+/* start footer */
+footer {
+    background-color: #282b2e;
+}
