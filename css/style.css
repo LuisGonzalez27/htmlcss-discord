@@ -22,7 +22,7 @@ header {
 
 /* start main */
 main {
-    background-color: #26f3379c;  /* da cambiare in white */
+    background-color: #fff; 
 }
 
 /* start footer */
@@ -94,7 +94,7 @@ header nav ul{
 }
 
 /* main sections */
-/* start section one */
+/* start first section */
 #hero-image {
     background-image: url(../img/jumbo.png);
     background-repeat: no-repeat;
@@ -111,7 +111,7 @@ header nav ul{
 }
 
 .hero-text h1 {
-    font-size: 42px;
+    font-size: 55px;
     color: white;
     margin-bottom: 5%;
 }
@@ -141,3 +141,29 @@ header nav ul{
     content: '\2B73';
     font-size: 25px;
   }
+
+  /* start second section */
+.section-due {
+    width: 100%;
+    padding: 50px 0px;
+}
+
+.case-left{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.case-left h2{
+    font-size: 50px;
+    padding-bottom: 35px;
+    
+}
+.case-left p{
+    font-size: 20px;
+}
+
+.left{
+    flex-basis: 40%;
+}
