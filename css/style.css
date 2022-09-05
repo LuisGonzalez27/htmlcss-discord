@@ -17,7 +17,7 @@ body {
 
 /* start header */
 header {
-    background-color: #2563e4;
+    background-color: #255EE8;
 }
 
 /* start main */
@@ -39,6 +39,7 @@ footer {
 /* nav nel header */
 .container img {
     height: 35px;
+    cursor: pointer;
 }
 
 li {
@@ -61,7 +62,7 @@ li a::after {
 }
 
 /* button */
-.pulsanti {
+.pulsante-dx {
     background-color: white;
     color: black;
     font-size: 14px;
@@ -71,11 +72,11 @@ li a::after {
     display: block;
 }
 
-.pulsanti:hover {
-    color: #3466db;;
+.pulsante-dx:hover {
+    color: #255EE8;;
     box-shadow: 0px 2px 10px 1px black;
 }
-
+/* star flexbox */
 .flexbox {
     display: flex;
     flex-flow: row wrap;
@@ -102,21 +103,41 @@ header nav ul{
     padding: 5% 25%;
 }
 
-#hero-image .titolo {
+.hero-text {
     min-height: 345px;
     padding: 0px 80px;
     text-align: center;
 
 }
 
-#hero-image .titolo h1 {
-    font-size: 55px;
+.hero-text h1 {
+    font-size: 42px;
     color: white;
     margin-bottom: 5%;
 }
 
-#hero-image .titolo p {
+.hero-text p {
     font-size: 16px;
     color: white;
     line-height: 1.6;
+    margin-bottom: 5%;
 }
+
+.bottone {
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 20px; 
+    color: black;
+    text-decoration: none;
+    margin: 5px;
+ }
+
+ .destro {
+    background-color: #282b2e;
+    color: white;
+}
+
+.down:after {
+    content: '\2B73';
+    font-size: 25px;
+  }
