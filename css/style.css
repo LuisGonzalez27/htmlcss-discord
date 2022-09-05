@@ -25,3 +25,18 @@ main {
 footer {
     background-color: #282b2e;
 }
+
+/* start header content*/
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+/* nav nel header */
+.container img {
+    height: 50px;
+}
+
+li {
+    list-style: none;
+}
