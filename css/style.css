@@ -17,7 +17,7 @@ body {
 
 /* start header */
 header {
-    background-color: #3466db;
+    background-color: #2563e4;
 }
 
 /* start main */
@@ -90,4 +90,33 @@ header nav.container {
 
 header nav ul{
     min-width: 450px;
+}
+
+/* main sections */
+/* start section one */
+#hero-image {
+    background-image: url(../img/jumbo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 5% 25%;
+}
+
+#hero-image .titolo {
+    min-height: 345px;
+    padding: 0px 80px;
+    text-align: center;
+
+}
+
+#hero-image .titolo h1 {
+    font-size: 55px;
+    color: white;
+    margin-bottom: 5%;
+}
+
+#hero-image .titolo p {
+    font-size: 16px;
+    color: white;
+    line-height: 1.6;
 }
