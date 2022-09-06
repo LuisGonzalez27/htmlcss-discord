@@ -15,19 +15,17 @@ body {
     font-family: Helvetica, sans-serif, Arial;
 }
 
-/* start header */
+/* background-color sections */
 header {
     background-color: #255EE8;
 }
 
-/* start main */
 main {
     background-color: #fff; 
 }
 
-/* start footer */
 footer {
-    background-color: #282b2e;
+    background-color: #23272a;
 }
 
 /* start header content*/
@@ -243,4 +241,62 @@ header nav ul{
 .purple {
     background-color: #8da1dd;
     color: white;
+}
+
+/* start footer */
+footer {
+    width: 100%;
+    min-height: 100px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+ul {
+    list-style: none;
+}
+
+hr {
+    width: 80%;
+    margin: 20px auto;   
+    border: 1px solid #7983F5;
+    background-color: #7983F5;
+}
+
+.flexfooter {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+li h3 {
+    color: #7983F5;
+    padding-bottom: 10px;
+    font-size: 28px;
+}
+
+li img {
+    width: 20px;
+}
+
+li h4 {
+    color: #7983F5;
+}
+
+li {
+    color: white;
+    padding: 5px 0;
+}
+
+div img {
+    cursor: pointer;
 }
