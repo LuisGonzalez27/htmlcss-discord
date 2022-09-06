@@ -202,3 +202,45 @@ header nav ul{
     padding: 50px 0px;
     margin-top: 50px;
 }
+
+/* start fifth section */
+.section-quinta {
+    width: 100%;
+    padding: 50px 0px;
+    text-align: center;
+    background-color:#f6f6f6 ;
+}
+
+.case-center {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.case-center h2 {
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.case-center p {
+    font-size: 20px;
+}
+
+.case-center h3 {
+    font-size: 25px;
+}
+
+.case-center a {
+    margin-bottom: 100px;
+}
+
+.stars {
+    background-image: url(../img/stars.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 27%;
+    padding: 20px 0px; 
+}
+
+.purple {
+    background-color: #8da1dd;
+    color: white;
+}
