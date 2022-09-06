@@ -309,3 +309,15 @@ div img {
 .icone i {
     cursor: pointer;
 }
+
+/* start wave */
+.wave{
+    color: #f6f6f6;
+    margin-bottom: -20px;
+}
+
+.wave-due{
+    color: #f6f6f6;
+    transform: rotate(3.142rad);
+    margin-top: -10px;
+}
