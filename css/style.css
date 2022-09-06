@@ -172,6 +172,7 @@ header nav ul{
 .section-terza {
     width: 100%;
     padding: 50px 0px;
+    background-color:#f6f6f6 ;
 }
 
 .case-right {
@@ -193,4 +194,11 @@ header nav ul{
 
 .right {
     flex-basis: 40%;
+}
+
+/* start fourth  section */
+.section-quarta {
+    width: 100%;
+    padding: 50px 0px;
+    margin-top: 50px;
 }
