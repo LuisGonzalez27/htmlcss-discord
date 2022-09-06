@@ -135,11 +135,6 @@ header nav ul{
     color: white;
 }
 
-.down:after {
-    content: '\2B73';
-    font-size: 25px;
-  }
-
   /* start second section */
 .section-due {
     width: 100%;
@@ -298,5 +293,17 @@ li {
 }
 
 div img {
+    cursor: pointer;
+}
+
+/* icone social */
+.icone {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+.icone i {
     cursor: pointer;
 }
