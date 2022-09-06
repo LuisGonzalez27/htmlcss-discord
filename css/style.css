@@ -146,6 +146,7 @@ header nav ul{
     align-items: center;
     width: 70%;
     margin: 0 auto;
+    justify-content: space-between;
 }
 
 .case-left h2{
@@ -174,6 +175,7 @@ header nav ul{
     flex-direction: row-reverse;
     width: 70%;
     margin: 0 auto;
+    justify-content: space-between;
 }
 
 .case-right h2 {
